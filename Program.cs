@@ -11,6 +11,13 @@ namespace CalculaterApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+            int resultSubtraction = Subtraction(5, 2);
+            Console.WriteLine(resultSubtraction);
+        }
+
+        static int Subtraction(int value1, int value2)
+        {
+            return value1 - value2;
         }
     }
 }
