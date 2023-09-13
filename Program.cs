@@ -18,6 +18,13 @@ namespace CalculaterApp
         static int Subtraction(int value1, int value2)
         {
             return value1 - value2;
+            int result = Sum(1, 2);
+            Console.WriteLine(result);
+        }
+
+        public static int Sum(int value1, int value2)
+        {
+           return value1 + value2;
         }
     }
 }
